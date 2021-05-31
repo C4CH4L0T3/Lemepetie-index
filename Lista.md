@@ -1,4 +1,6 @@
+-Agregar magins y paddings
 
+-Agregar boton al logo para que vuelva al index
 
 -Añadir otros dos carouseles prvocionales
 
@@ -14,5 +16,6 @@
 
 -Hacer que el carousel se expanda hacia todos los lados
 
+-Agregar mas contenido carousel
 
-
+/*Cada que se termine una tarea comentar a su lado listo*/
