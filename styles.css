@@ -1,30 +1,22 @@
+
+
 body{
 margin: 0;
 background: #41295a;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 font-family: Arial, Helvetica, sans-serif;
-
+overflow: hidden;
 }
 
 
 .header{
 width: 100%;
-height: 80px;
-
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-top: 5%;
 }
 
-.header__img{
-width: 200px;
-margin-top: 10px;
-margin-left: 10px;
-
-}
 
 .header__menu{
 margin-right: 30px;
@@ -34,7 +26,6 @@ text-align: left;
 }
 
 .header__menu–profile{
-margin-right: 60px;
 width: 40px;
 display: flex;
 align-items: center;
@@ -46,8 +37,6 @@ display: none;
 list-style: none;
 padding: 0px;
 position: absolute;
-text-align: right;
-margin-right: -14px;
 
 }
 
@@ -56,12 +45,8 @@ display: block;
 
 }
 
-.header__menu li{
-margin: 10px 0px;
-}
 
 .header__menu li a{
-
 text-decoration: none;
 color: #fff;
 }
@@ -71,25 +56,18 @@ display: block;
 text-decoration: underline;
 
 }
-.header__menu–profile img{
-margin-right: 8px;
-width: 40px;
-height: 40px;
-}
+
 
 .header__menu–profile p{
-
 margin: 0px;
 color: #fff;
 }
-.logo{
-
-width: 200px;
-margin-top: 10px;
+a .logo{
+margin-left: 25px;
+width: 25%;
 }
 
 .search{
-
 width: 100%;
 height: 200px;
 display: flex;
@@ -99,12 +77,10 @@ align-items: center;
 }
 
 .search h2{
-
 color: #fff;
 
 }
 .search__input{
-
 width: 70%;
 height: 40px;
 border-radius: 20px;
@@ -112,6 +88,7 @@ border:2px solid #fff;
 color: #fff;
 background-color: rgba(255, 255, 255, 0.1);
 padding-left: 20px;
+padding-right: 20px;
 outline: none;
 
 } ::placeholder{
@@ -122,17 +99,15 @@ color: #fff;
 /**** carousel*******/
 
 .carousel{
-width: 100%;
-
-padding: 30px;
+width: 94%;
+padding: 25px;
 position: relative;
-
+overflow-x: scroll;
 }
 .carousel__container{
 
 white-space: nowrap;
 margin: 70px 0px;
-padding-bottom: 10px;
 }
 
 .carousel-item{
@@ -192,4 +167,14 @@ opacity: 1;
 }
 .carousel-item__details--subtitle{
 color: white;
+}
+
+i{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+i:hover{
+    color: rgb(214, 214, 214);
+    transition: 0.3s all;
 }
